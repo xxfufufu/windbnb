@@ -1,0 +1,97 @@
+.containerSearchRoom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  
+}
+
+.containerSearchRoom label {
+    cursor: pointer;
+}
+
+.containerSearchRoom-active {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.containerSearchRoom-active ul {
+    list-style: none;
+    margin-top: 10px;
+}
+/* display list */
+
+.list-pasive {
+    display: none;
+}
+
+.list-active {
+    display: inline-block;
+}
+
+/* css list */
+.searchRoom-active {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(65, 119, 170);
+    border-radius: 16px;
+    overflow: hidden;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+
+.searchRoom-pasive {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(206, 205, 205);
+    border-radius: 16px;
+    overflow: hidden;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.label-search {
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.input-search {
+    line-height: 20px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+.lala {
+    width: 100%;
+}
+
+
+li {
+    line-height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+li:hover {
+    background-color: rgb(228, 211, 188);
+    border-radius: 5px;
+}
+
+.fa-thumbtack {
+    margin-right: 10px;
+}
+
+@media only screen and (max-width: 700px) {
+    .containerSearchRoom-active {
+        padding: 30px 10px 0 10px;
+    }
+    .list-active {
+        height: 120px;
+    }
+}

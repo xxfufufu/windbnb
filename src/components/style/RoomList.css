@@ -1,0 +1,24 @@
+section {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.headerRoom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.containerRoom {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.stay-at {
+    font-size: 1.5em;
+    font-weight: bold;
+}
