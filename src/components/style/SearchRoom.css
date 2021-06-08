@@ -95,3 +95,7 @@ li:hover {
         height: 120px;
     }
 }
+@media only screen and (max-width: 500px) {
+    .label-search {
+        font-size: 13px;}
+}

@@ -9,6 +9,7 @@ section {
     justify-content: space-between;
     width: 90%;
     margin: 0 auto;
+    align-items: baseline;
 }
 
 .containerRoom {

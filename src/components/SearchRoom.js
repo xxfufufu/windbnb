@@ -39,7 +39,7 @@ const SearchRoom = ({
             </ul>
         </div> :
         <div className="containerSearchRoom" onClick={handleSearchHeader}> 
-            <label>Add Location</label>
+            <label className="label-search">Add Location</label>
         </div> 
 
     );

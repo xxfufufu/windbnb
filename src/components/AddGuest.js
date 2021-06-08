@@ -75,7 +75,7 @@ const AddGuest = ({counter, setCounter, viewHeader, setViewHeader, viewGuest, se
             </div>
         </div> :
         <div className="containerAddGuest" onClick={handleGuestHeader}>
-            <label>Add Guest</label>
+            <label className="label-guest">Add Guest</label>
         </div>
     );
 }

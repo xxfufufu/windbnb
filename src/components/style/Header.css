@@ -65,4 +65,13 @@
         grid-template-columns: 1fr;
         height: 60vh;
     }
+    .header-hidden {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .header-hidden {
+        width: 200px;
+    }
 }

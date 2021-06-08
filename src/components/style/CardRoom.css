@@ -74,3 +74,29 @@
     font-size: 14px;
     margin-right: 5px;
 }
+
+@media only screen and (max-width: 500px) {
+    .room-img {
+        max-width: 275px;
+        height: 182px;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .room-img {
+        max-width: 200px;
+        height: 137px;
+    }
+    .super-host {
+        font-size: 8px;
+    }
+    .type, .beds, .number-ratting {
+        font-size: 11px;
+    }
+    .room-title {
+        font-size: 10px;
+    }
+    .star {
+        font-size: 10px;
+    }
+}

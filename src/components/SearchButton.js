@@ -9,7 +9,7 @@ const SearchButton = ({changeStays, viewHeader, setViewHeader, setViewSearch}) =
         viewHeader ? 
             <div className="containerSearchButton-active">
                 <div className="iconSearch" onClick={changeStays}>
-                    <i className="fas fa-search"></i>
+                    <i className="ikon fas fa-search"></i>
                     <div>Search</div>
                 </div> 
             </div> :
