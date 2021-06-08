@@ -73,5 +73,6 @@
 @media only screen and (max-width: 500px) {
     .header-hidden {
         width: 200px;
+        grid-template-columns: 1fr .8fr .5fr;
     }
 }
