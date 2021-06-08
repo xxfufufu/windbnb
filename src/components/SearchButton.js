@@ -4,11 +4,15 @@ const SearchButton = ({changeStays, viewHeader, setViewHeader, setViewSearch}) =
     const handleViewHeader = () => {
         setViewHeader(true)
         setViewSearch(true)};
+    const searchAndClose = () => {
+        changeStays();
+        setViewHeader(false);
+    }
     return (
         
         viewHeader ? 
             <div className="containerSearchButton-active">
-                <div className="iconSearch" onClick={changeStays}>
+                <div className="iconSearch" onClick={searchAndClose}>
                     <i className="ikon fas fa-search"></i>
                     <div>Search</div>
                 </div> 
