@@ -24,7 +24,7 @@
 .header-active {
     display: grid;
     grid-template-columns: 1fr 1fr 0.5fr;
-    height: 40vh;
+    height: 250px;
     box-shadow: none;
     width: 100%;
     border-radius: 0;
@@ -63,7 +63,7 @@
 
     .header-active {
         grid-template-columns: 1fr;
-        height: 60vh;
+        height: 500px;
     }
     .header-hidden {
         width: 300px;
