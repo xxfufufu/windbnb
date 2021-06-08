@@ -54,7 +54,7 @@
 }
 
 .label-search {
-    line-height: 20px;
+    /* line-height: 20px; */
     cursor: pointer;
 }
 
@@ -97,5 +97,6 @@ li:hover {
 }
 @media only screen and (max-width: 500px) {
     .label-search {
-        font-size: 13px;}
+        font-size: 13px;
+    color: blue;}
 }
