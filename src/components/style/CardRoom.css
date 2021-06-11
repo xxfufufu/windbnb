@@ -3,6 +3,7 @@
 /* card-room */
 .room {
     margin: 20px 5px;
+    border:  1px solid red;
 }
 
 /* image */
@@ -76,6 +77,9 @@
 }
 
 @media only screen and (max-width: 500px) {
+    .room {
+        width: 275px;
+    }
     .room-img {
         max-width: 275px;
         height: 182px;
@@ -83,6 +87,9 @@
 }
 
 @media only screen and (max-width: 300px) {
+    .room {
+        width: 200px;
+    }
     .room-img {
         max-width: 200px;
         height: 137px;
